@@ -11,7 +11,7 @@ const Project = () => {
 
   // Load project data from projects.json
   useEffect(() => {
-    fetch("/projects.json")
+    fetch("/portfolio_react/projects.json")
       .then((response) => response.json())
       .then((data) => {
         setProjects(data);
