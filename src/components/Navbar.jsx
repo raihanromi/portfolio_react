@@ -5,19 +5,19 @@ const Navbar = () => {
     <nav className="navbar">
     <ul className="navbar-list">
       <li className="navbar-item">
-        <NavLink to="/" className="navbar-link" data-nav-link>
+        <NavLink to="/portfolio_react/" className="navbar-link" data-nav-link>
           About
         </NavLink>
       </li>
 
       <li className="navbar-item">
-        <NavLink to="/resume" className="navbar-link" data-nav-link>
+        <NavLink to="/portfolio_react/resume" className="navbar-link" data-nav-link>
           Resume
         </NavLink>
       </li>
 
       <li className="navbar-item">
-        <NavLink to="/project" className="navbar-link" data-nav-link>
+        <NavLink to="/portfolio_react/project" className="navbar-link" data-nav-link>
           Project
         </NavLink>
       </li>
